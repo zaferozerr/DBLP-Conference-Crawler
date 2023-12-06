@@ -29,7 +29,7 @@ def create_tables(year, conference_name):
                         Name TEXT
                     )''')
 
-    cursor.execute(f'''CREATE TABLE IF NOT EXISTS "Authors_Papers_{year}" (
+    cursor.execute(f'''CREATE TABLE IF NOT EXISTS Authors_Papers_{year} (
                         id_author INTEGER,
                         id_paper INTEGER,
                         FOREIGN KEY (id_author) REFERENCES Individuals_{year}(id_author),
@@ -71,17 +71,18 @@ def insert_names_members(args):
     cursor.execute(f'SELECT id_author FROM Authors_{y} WHERE Name = ?', (name,))
     id_author = cursor.fetchone()[0]
 
-    for institution, country in inst.items():
-        cursor.execute(f'SELECT Name FROM Institutions_{y} WHERE Name = ?', (institution,))
-        existing_inst = cursor.fetchone()
+    if inst is not None:
+        for institution, country in inst.items():
+            cursor.execute(f'SELECT Name FROM Institutions_{y} WHERE Name = ?', (institution,))
+            existing_inst = cursor.fetchone()
 
-        if existing_inst is None:
-            cursor.execute(f"INSERT INTO Institutions_{y} (Name, Place) "
-                    f"VALUES (?, ?)", (institution, country))
-        cursor.execute(f'SELECT id_institution FROM Institutions_{y} WHERE Name = ?', (institution,))
-        id_institution = cursor.fetchone()[0]
-        cursor.execute(f"INSERT INTO Authors_Institutions_{y} (id_author, id_institution) "
-                        f"VALUES (?, ?)", (id_author, id_institution))
+            if existing_inst is None:
+                cursor.execute(f"INSERT INTO Institutions_{y} (Name, Place) "
+                        f"VALUES (?, ?)", (institution, country))
+            cursor.execute(f'SELECT id_institution FROM Institutions_{y} WHERE Name = ?', (institution,))
+            id_institution = cursor.fetchone()[0]
+            cursor.execute(f"INSERT INTO Authors_Institutions_{y} (id_author, id_institution) "
+                            f"VALUES (?, ?)", (id_author, id_institution))
 
     conn.commit()
     conn.close()
@@ -141,7 +142,7 @@ def insert_papers_authors(args):
 
 if __name__ == '__main__':
     for conf in global_data.conferences:
-        papers_data , committee_data = read_json_file("middleware")
+        papers_data , committee_data = read_json_file(conf)
 
         for year in range(global_data.FIRST_YEAR, global_data.LAST_YEAR+1):
             create_tables(year, conf)
