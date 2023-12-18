@@ -1,11 +1,6 @@
 [
     {
         "Year": 2021,
-        "Title": "Proceedings of the ACM Symposium on Cloud Computing",
-        "Authors and Institutions": {}
-    },
-    {
-        "Year": 2021,
         "Title": "Llama",
         "Authors and Institutions": {
             "Francisco Romero": {
@@ -4352,11 +4347,6 @@
     },
     {
         "Year": 2022,
-        "Title": "Proceedings of the 13th Symposium on Cloud Computing",
-        "Authors and Institutions": {}
-    },
-    {
-        "Year": 2022,
         "Title": "Arax",
         "Authors and Institutions": {
             "Manos Pavlidakis": {
@@ -8088,11 +8078,6 @@
     },
     {
         "Year": 2020,
-        "Title": "Proceedings of the 11th ACM Symposium on Cloud Computing",
-        "Authors and Institutions": {}
-    },
-    {
-        "Year": 2020,
         "Title": "Wukong",
         "Authors and Institutions": {
             "Benjamin Carver": {
@@ -8840,25 +8825,6 @@
             },
             "Chuanxiong Guo": {
                 "CE Technologies (United Kingdom)": "GB"
-            }
-        }
-    },
-    {
-        "Year": 2015,
-        "Title": "Proceedings of the Sixth ACM Symposium on Cloud Computing",
-        "Authors and Institutions": {
-            "Shahram Ghandeharizadeh": {
-                "Southern California University for Professional Studies": "US",
-                "University of Southern California": "US"
-            },
-            "Magdalena Balazinska": {
-                "University of Washington": "US"
-            },
-            "Michael J. Freedman": {
-                "Princeton University": "US"
-            },
-            "Sumita Barahmand": {
-                "Microsoft Research (United Kingdom)": "GB"
             }
         }
     },
