@@ -2463,18 +2463,18 @@
         "Title": "MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters.",
         "Authors and Institutions": {
             "Qizhen Weng": {
-                "Hong Kong University of Science and Technology": "CN",
+                "Hong Kong University of Science and Technology": "HK",
                 "Alibaba Group (China)": "CN"
             },
             "Wencong Xiao": {
                 "Alibaba Group (China)": "CN"
             },
             "Yinghao Yu": {
-                "Hong Kong University of Science and Technology": "CN",
+                "Hong Kong University of Science and Technology": "HK",
                 "Alibaba Group (China)": "CN"
             },
             "Wei Wang": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Cheng Wang": {
                 "Alibaba Group (China)": "CN"
@@ -3059,7 +3059,7 @@
         "Title": "Tiara: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing.",
         "Authors and Institutions": {
             "Chaoliang Zeng": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Layong Luo": {
                 "Bytedance": "CN"
@@ -3068,7 +3068,7 @@
                 "Bytedance": "CN"
             },
             "Zilong Wang": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Luyang Li": {
                 "Institute of Computing Technology Chinese Academy of Sciences": "CN"
@@ -3098,7 +3098,7 @@
                 "Bytedance": "CN"
             },
             "Kai Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Chuanxiong Guo": {
                 "Bytedance": "CN"
@@ -3773,13 +3773,13 @@
         "Title": "Enabling ECN in Multi-Service Multi-Queue Data Centers.",
         "Authors and Institutions": {
             "Wei Bai": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Li Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Kai Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Haitao Wu": {
                 "Microsoft (United States)": "US"
@@ -8008,16 +8008,16 @@
         "Title": "PowerMan: An Out-of-Band Management Network for Datacenters Using Power Line Communication.",
         "Authors and Institutions": {
             "Li Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Jiacheng Xia": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Bairen Yi": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Kai Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             }
         }
     },
@@ -8110,22 +8110,22 @@
         "Title": "Explicit Path Control in Commodity Data Centers: Design and Applications.",
         "Authors and Institutions": {
             "Shuihai Hu": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Kai Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Haitao Wu": {
                 "Microsoft (United States)": "US"
             },
             "Wei Bai": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Chang Lan": {
                 "University of California, Berkeley": "US"
             },
             "Hao Wang": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Hongze Zhao": {
                 "Duke University": "US"
@@ -8395,7 +8395,7 @@
         "Authors and Institutions": {
             "Longfei Shangguan": {
                 "Tsinghua University": "CN",
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Zheng Yang": {
                 "Tsinghua University": "CN"
@@ -8404,7 +8404,7 @@
                 "Michigan State University": "US"
             },
             "Zimu Zhou": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Yunhao Liu": {
                 "Tsinghua University": "CN"
@@ -8718,13 +8718,13 @@
         "Title": "Information-Agnostic Flow Scheduling for Commodity Data Centers.",
         "Authors and Institutions": {
             "Wei Bai": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Li Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Kai Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Dongsu Han": {
                 "Korea Advanced Institute of Science and Technology": "KR"
@@ -8733,7 +8733,7 @@
                 "Nanjing University": "CN"
             },
             "Hao Wang": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             }
         }
     },
@@ -9714,10 +9714,10 @@
         "Title": "Enabling Wide-Spread Communications on Optical Fabric with MegaSwitch.",
         "Authors and Institutions": {
             "Li Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Kai Chen": {
-                "Hong Kong University of Science and Technology": "CN"
+                "Hong Kong University of Science and Technology": "HK"
             },
             "Zhonghua Zhu": {
                 "Omnisensing Photonics": null
